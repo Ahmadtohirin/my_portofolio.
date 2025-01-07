@@ -243,7 +243,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgba(255, 255, 255, 0);
   text-decoration: none;
   font-size: 40px;
 }
@@ -265,7 +265,7 @@ body {
 }
 .fivethContainer {
   margin-top: -150px;
-  background-color: #fff;
+  background-color: #781fdd;
 }
 .linkSosmed {
   display: flex;
@@ -283,4 +283,34 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -90px;
+}
+.contactMethod {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.method {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-size: 3.5rem; /* Ukuran teks yang lebih besar */
+}
+
+.contactIcon {
+  font-size: 3rem; /* Ukuran ikon yang lebih besar */
+  margin-right: 15px; /* Jarak yang lebih besar antara ikon dan teks */
+  color: hsl(0, 0%, 0%);
+}
+
+.sub-heading {
+  font-size: 1.5rem; /* Ukuran sub-heading yang lebih besar */
+  margin: 0;
+  text-align: center;
+}
+
+.para {
+  margin: 0;
+  font-size: 1.2rem; /* Ukuran paragraf yang lebih besar */
 }
